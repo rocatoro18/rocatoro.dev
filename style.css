@@ -2,3 +2,25 @@
 body {
     font-family: "Roboto", sans-serif;
 }
+
+.my-resume-social {
+    background-color: red;
+}
+
+.about-me {
+    background-color: grey;
+    padding-left: 30%;
+    
+}
+
+.my-image {
+    background-color: aqua;
+    
+}
+
+.my-resume-social, .my-image {
+    width: 45%;
+    height: 400px;
+    display: inline-block;
+    margin: 20px;
+}
