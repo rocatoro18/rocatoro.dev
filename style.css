@@ -1,26 +1,75 @@
 
 body {
     font-family: "Roboto", sans-serif;
+    background: white;
+}
+
+header h1 {
+    margin-left: 5vh;
+    color: black;
+    display: inline-block;
+    font-weight: 600;
+}
+
+header h1:hover {
+    color: #336FBD;
+    font-weight: 600;
 }
 
 .my-resume-social {
-    background-color: red;
+    /*background-color: red;*/
+    max-width: 500px;
+    margin-top: 15vh;
+    margin-left: 20vh;
 }
 
-.about-me {
-    background-color: grey;
-    padding-left: 30%;
+.about-me p {
+    margin-top: 0;
+    /*background-color: grey;*/
+    color: black;
+    font-weight: 600;
+    font-size: 20px;
     
 }
 
 .my-image {
+    margin-top: 15vh;
+    margin-left: 5vh;
     background-color: aqua;
-    
+    width: 500px;
+}
+
+.contact a {
+    justify-content: space-between;
+    margin-right: 20px;
 }
 
 .my-resume-social, .my-image {
-    width: 45%;
-    height: 400px;
     display: inline-block;
-    margin: 20px;
+}
+
+/*
+.tech-stack {
+    margin-top: 25vh;
+    margin-left: 20vh;
+}
+*/
+
+.container-technologies {
+    margin-left: 20vh;
+    margin-top: 25vh;
+    display: flex;
+}
+
+.tech-stack, .tools {
+    flex: 1;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    background-color: #081B29; 
+    color: #ffffff; 
+    padding: 10px; 
 }
